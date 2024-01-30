@@ -1,0 +1,82 @@
+* {
+  border: solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-left: 16px;
+}
+
+a {
+  text-decoration: 0;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+img.topimg {
+  width: 450px;
+}
+
+img.card-illu{
+  width: 300px;
+}
+
+.div-container-one, .div-container-two,
+.div-container-three, .div-container-four {
+  display: flex;
+  padding: 0px 140px;
+}
+
+.header, footer {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 140px;
+}
+
+.h-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.right-links {
+  display: flex;
+}
+
+.div-container-one {
+  justify-content: center;
+  background-color: #1F2937;
+}
+
+.website-awesome-header {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.website-awesome-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.website-awesome-signup-btn {
+  color: #F9FAF8;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 8px 32px;
+  background-color: #3882F6;
+}
