@@ -1,5 +1,4 @@
 * {
-  border: solid black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -23,18 +22,27 @@ a {
   color: #E5E7EB;
 }
 
+button {
+  border-radius: 8px;
+  padding: 8px 32px;
+}
+
 img.topimg {
-  width: 450px;
+  width: 540px;
 }
 
 img.card-illu{
-  width: 300px;
+  width: 250px;
 }
 
-.div-container-one, .div-container-two,
+.div-container-one, .div-container-two, 
 .div-container-three, .div-container-four {
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.div-container-one, .div-container-two, .div-container-four {
   display: flex;
-  padding: 0px 140px;
 }
 
 .header, footer {
@@ -43,14 +51,16 @@ img.card-illu{
 
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  padding: 0px 140px;
+  padding: 12px 180px;
 }
 
 .h-logo {
   font-size: 24px;
   color: #F9FAF8;
+  margin: 0px;
+  padding: 0px;
 }
 
 .right-links {
@@ -58,8 +68,15 @@ img.card-illu{
 }
 
 .div-container-one {
-  justify-content: center;
+  align-items: flex-start;
   background-color: #1F2937;
+  gap: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.website-awesome-container *{
+  margin: 4px 0px;
 }
 
 .website-awesome-header {
@@ -75,8 +92,85 @@ img.card-illu{
 
 .website-awesome-signup-btn {
   color: #F9FAF8;
-  font-weight: 700;
-  border-radius: 6px;
-  padding: 8px 32px;
+  font-weight: bold;
   background-color: #3882F6;
+  border: none;
+}
+
+.div-container-two {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+.info-card-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+}
+
+.div-container-three {
+  background-color: #E5E7EB;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.quote{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: lighter;
+}
+
+.author {
+  text-align: end;
+  color: #1F2937;
+  font-size: 24px;
+}
+
+.div-container-four {
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.calltoaction-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882F6;
+  width: 100em;
+  height: 140px;
+  border-radius: 8px;
+}
+
+.calltoaction-itstime {
+  color: #F9FAF8;
+  margin: 0px;
+}
+
+.calltoaction-clickbtn {
+  color: #F9FAF8;
+}
+
+.calltoaction-signup-btn {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bold;
+  border: 3px solid #F9FAF8;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #F9FAF8;
+
 }
